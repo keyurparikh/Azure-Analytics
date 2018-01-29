@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "azure-insight-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/azureInsight/AzureInsightApplicationCustomizer.js",
+          "manifest": "./src/extensions/azureInsight/AzureInsightApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AzureInsightApplicationCustomizerStrings": "lib/extensions/azureInsight/loc/{locale}.js"
+  }
+}

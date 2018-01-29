@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "azure-insight",
+    "libraryId": "16c715bf-db5d-414c-b0f8-338082a3629b",
+    "environment": "spo"
+  }
+}
